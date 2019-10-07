@@ -1,0 +1,30 @@
+#product-styles{
+    height:550px;
+    background-color:$fourth-color;
+
+    #product-styles-tagline{
+        padding-top:220px;
+        margin:0 auto;
+        text-align:center;
+        width:70%;
+        color:#fff;
+    }
+}
+
+#product-styles-colour{
+    margin-top:-120px;
+
+    #product-styles-img{
+        margin:0 auto;
+        height:170px;
+        width:170px;
+        background-color:$first-color;
+        border-radius: 50%;
+    }
+
+    #product-styles-name{
+        text-align:center;
+        padding:20px 0 35px 0;
+        border-bottom:1px solid;
+    }
+}

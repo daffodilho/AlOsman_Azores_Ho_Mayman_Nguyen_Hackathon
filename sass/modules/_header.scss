@@ -1,0 +1,20 @@
+#hero{
+    margin:0 auto;
+    background-color:$third-color;
+    height:525px;
+
+    #hero-tagline{
+        padding-top:200px;
+        text-align:center;
+        color:#fff;
+    }
+
+    #hero-slider-nav{
+        ul{
+            list-style-type: none;
+            float:right;
+            padding-right:10px;
+        }
+    }
+}
+

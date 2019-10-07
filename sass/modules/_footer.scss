@@ -1,0 +1,39 @@
+#main-footer{
+    padding:30px 15px 50px 15px;
+    background-color:$fourth-color;
+    text-align:center;
+
+    #footer-upper{
+        display:flex;
+        flex-wrap:nowrap;
+        justify-content:space-between;
+        padding-bottom:10px;
+
+        #footer-logo{
+            width:80px;
+            height:80px;
+            background-color:$first-color;
+        }
+
+        #footer-info{
+
+            #footer-social{
+
+                width:180px;
+                margin-top:10px;
+
+                li{
+                    padding:10px 15px 10px 15px;
+                    margin-right:18px;
+                    background-color:$first-color;
+                    display:inline;
+                }
+            }
+
+            #footer-nav{
+                margin:60px 0 10px 5px;
+                text-align:left;
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+#features-main{
+    height:540px;
+    padding-top:100px;
+
+    .features-info{
+        margin:0 auto;
+        margin-right:40px;
+        width:160px;
+        padding:40px 0 40px 40px;
+    }
+}
+
+.features-sub{
+    .features-sub-title{
+        background-color:$first-color;
+        height:500px;
+        padding:55px 0 0 20px;
+    }
+
+    .features-sub-body{
+        margin:0 auto;
+        width:90%;
+        padding:30px 0 30px 0;
+    }
+}
