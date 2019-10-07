@@ -1,5 +1,12 @@
 @import "_vars";
+@import "modules/_nav.scss";
 @import "modules/_header";
+@import "modules/_product";
+@import "modules/_features";
+@import "modules/_process";
+@import "modules/_footer";
+
+
 
 .hidden {
     display: none;
