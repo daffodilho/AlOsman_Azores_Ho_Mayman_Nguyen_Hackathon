@@ -23,3 +23,47 @@
         padding:30px 0 30px 0;
     }
 }
+
+/**     TABLET QUERY BEGINS     **/
+
+@media (min-width:48em){
+
+    #features-main{
+
+        padding-top:150px;
+
+        .features-info{
+            width:390px;
+            padding:0;
+            padding:20px;
+            margin-top:40px;
+            margin-bottom:40px;
+            border-left:3px solid;
+        }
+    }
+
+    .features-sub{
+        .features-sub-title{
+            width:530px;
+            height:325px;
+            padding:0;
+            margin:0 auto;
+            margin-right:70px;
+
+            h2{
+                padding:85px 0 30px 0;
+                margin-left:-135px;
+                width:300px;
+            }
+
+            h1{ margin-left:-135px; }
+        }
+    
+        .features-sub-body{
+            margin:0 auto;
+            width:90%;
+            padding:40px 0 85px 0;
+        }
+    }
+    
+}
