@@ -30,3 +30,19 @@
     }
 
 }
+
+/**     DESKTOP QUERY BEGINS     **/
+
+@media (min-width:60em) {
+
+    #main-nav{
+
+        #logo{
+            width:200px / 960px * 100%;
+        }
+
+        #cart{
+            width:80px / 960px * 100%;
+        }
+    }
+}

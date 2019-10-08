@@ -53,3 +53,12 @@
         }
     }
 }
+
+/**     DESKTOP QUERY BEGINS     **/
+
+@media (min-width:60em){
+
+    #product-styles-img{
+        width:380px / 960px * 100%;
+    }
+}

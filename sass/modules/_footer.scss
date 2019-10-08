@@ -48,3 +48,13 @@
         padding:60px 0 60px 0;
     }
 }
+
+/**     DESKTOP QUERY BEGINS     **/
+
+@media (min-width:60em){
+
+    #footer-upper{
+        margin:0 auto;
+        max-width:1280px;
+    }
+}

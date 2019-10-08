@@ -82,3 +82,30 @@
         }
     }
 }
+
+/**     DESKTOP QUERY BEGINS     **/
+
+@media (min-width:60em){
+    
+    #getting-started{
+        padding:100px 0 120px 0;
+
+        #all-start-steps{
+
+            max-width:1280px;
+
+            .start-steps{
+                width:275px;
+            }
+            .start-steps img{
+                width:100px / 1024px * 100%;
+            }
+        }
+    }
+
+    #get-app-stores{
+        img{
+            width:100px / 1024px * 100%;
+        }
+    }
+}
