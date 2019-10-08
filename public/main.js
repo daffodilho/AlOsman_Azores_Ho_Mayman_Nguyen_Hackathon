@@ -1,14 +1,15 @@
 (() => {
     console.log('Working!');
 
-    let ellipsis = document.querySelectorAll('#ellipsis li'),
+    let ellipsis = document.querySelectorAll('#ellipsis li '),
         heroImage = document.querySelector('#hero'),
-        thermostat = document.querySelecter('#product-styles-img img'),
+        thermostat = document.querySelector('#product-styles-img img'),
         whiteButton = document.querySelectorAll('.pearl'),
         woodButton = document.querySelector('.wood');
 
     function changeImage() {
-        heroImage.style.backgroundImage = 'url("images/banner" + ${this.dataset.offset} + ".jpeg")';
+        heroImage.style.backgroundImage = "url('../images/desktop_banner' + `${this.dataset.offset}` + '.jpeg')";
+        debugger;
     }
 
     // function showWhiteProduct() {
@@ -20,7 +21,7 @@
     // }
 
     ellipsis.forEach(buttons => buttons.addEventListener('click', changeImage));
-    whiteButton.addEventListener('mouseover', showWhiteProduct);
-    woodButton.addEventListener('mouseover', showWoodProduct);
+    // whiteButton.addEventListener('mouseover', showWhiteProduct);
+    // woodButton.addEventListener('mouseover', showWoodProduct);
     
 })();

@@ -35,6 +35,7 @@ app.get('/layout', (req, res) => {
         console.log(rows);
   
         res.render('layout', rows[0]);
+        res.render('layout', rows[1]);
       })
     })
 })
