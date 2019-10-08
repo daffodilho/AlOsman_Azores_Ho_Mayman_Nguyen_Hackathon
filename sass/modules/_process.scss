@@ -25,7 +25,9 @@
 
 #order-now{
     height:375px;
-    background-color:$second-color;
+    background-image:url('../images/tablet_mockup_1.jpg');
+    background-size:cover;
+    background-position:center;
     color:#fff;
 
     h2{
@@ -96,6 +98,7 @@
 
         #all-start-steps{
 
+            margin:0 auto;
             max-width:1280px;
 
             .start-steps{

@@ -1,6 +1,9 @@
 #product-styles{
     height:550px;
     background-color:$fourth-color;
+    background-image:url('../images/smart_thermostat_1.jpg');
+    background-size:cover;
+    background-position:center;
 
     #product-styles-tagline{
         padding-top:220px;
@@ -16,10 +19,12 @@
 
     #product-styles-img{
         margin:0 auto;
+        text-align:center;
         height:140px;
         width:300px;
-        background-color:$first-color;
         border-radius: 100px;
+
+        img{ margin:0 auto; width:50%; }
     }
 
     #product-styles-name{
