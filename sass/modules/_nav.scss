@@ -19,22 +19,14 @@
     }
 }
 
-#hero{
-    margin:0 auto;
-    background-color:$third-color;
-    height:525px;
+/**     TABLET QUERY BEGINS     **/
 
-    #hero-tagline{
-        padding-top:200px;
-        text-align:center;
-        color:#fff;
+@media (min-width:48em) {
+
+    #main-nav{
+        position:fixed;
+        z-index:999;
+        width:95%;
     }
 
-    #hero-slider-nav{
-        ul{
-            list-style-type: none;
-            float:right;
-            padding-right:10px;
-        }
-    }
 }

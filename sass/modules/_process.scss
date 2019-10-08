@@ -26,7 +26,7 @@
 
     h2{
         text-align:center;
-        padding-top:120px;
+        padding-top:160px;
     }
 }
 
@@ -60,4 +60,25 @@
 
     }
 
+}
+
+/**     TABLET QUERY BEGINS     **/
+
+@media (min-width:48em){
+
+    #getting-started{
+        text-align:center;
+        padding-top:80px;
+        padding-bottom:80px;
+        border-top:1px solid;
+
+        #all-start-steps{
+            display:flex;
+            flex-wrap:nowrap;
+
+            .start-steps{
+                width:28%;
+            }
+        }
+    }
 }
