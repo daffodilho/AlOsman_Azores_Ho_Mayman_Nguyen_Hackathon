@@ -59,12 +59,14 @@
 @media (min-width:60em){
     #hero{
         background-image:url('../images/desktop_banner3.png');
-        background-size:contain;
+        background-position:bottom left;
+        background-repeat:no-repeat;
 
         #hero-tagline{
             max-width:800px;
             h2{
                 font-size:2em;
+                color:$third-color;
             }
         }
     }
