@@ -65,5 +65,46 @@
             padding:40px 0 85px 0;
         }
     }
-    
+}
+
+/**     DESKTOP QUERY BEGINS     **/
+
+@media (min-width:60em){
+
+    #features-main{
+
+        .features-info{
+            margin-right:90px;
+            padding:40px 25px 40px 25px;
+        }
+    }
+
+    .features-sub{
+        
+        display:flex;
+        flex-wrap:nowrap; 
+        justify-content:space-evenly;
+        position:relative;
+        margin:0 auto;
+        max-width:1280px;
+
+        .features-sub-title{
+            margin:0 auto;
+            margin-bottom:120px;
+            padding:0;
+            width:525px / 1024px * 100%;
+
+            h1, h2{ margin-left:-160px; }
+        }
+
+        .features-sub-body{
+            width:200px / 1024px * 100%;
+            padding:0;
+            padding-right:35px;
+            margin:0;
+            position:absolute;
+            bottom: 120px;
+            right: 0;         
+        }
+    }
 }
