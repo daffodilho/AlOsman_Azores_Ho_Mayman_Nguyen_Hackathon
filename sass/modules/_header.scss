@@ -1,12 +1,14 @@
 #hero{
     margin:0 auto;
-    background-color:$third-color;
     height:525px;
+    background-image:url('../images/desktop_banner1.png');
+    background-size:cover;
+    background-position:center;
 
     #hero-tagline{
         padding-top:200px;
         text-align:center;
-        color:#fff;
+        color:$light;
     }
 
     #hero-slider-nav{
@@ -14,6 +16,24 @@
             list-style-type: none;
             float:right;
             padding-right:10px;
+
+            %hero-button{
+                border-radius:50%;
+                background-color:$light;
+                height:15px;
+                width:10px;
+                margin:4px 0 4px 0;
+            }
+
+            button{
+                @extend %hero-button;
+                background-color:$light;
+            }
+
+            .selected{
+                @extend %hero-button;
+                background-color:$fourth-color;
+            }
         }
     }
 }
@@ -27,8 +47,25 @@
         height:758px;
 
         #hero-tagline{
+            margin:0 auto;
             padding-top:355px;
+            max-width:460px;
         }
     }
+}
 
+/**     DESKTOP QUERY BEGINS     **/
+
+@media (min-width:60em){
+    #hero{
+        background-image:url('../images/desktop_banner3.png');
+        background-size:contain;
+
+        #hero-tagline{
+            max-width:800px;
+            h2{
+                font-size:2em;
+            }
+        }
+    }
 }

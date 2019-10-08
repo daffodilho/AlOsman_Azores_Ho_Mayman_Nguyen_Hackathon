@@ -27,7 +27,21 @@
         padding:20px 0 35px 0;
         border-bottom:1px solid;
 
-        button{ margin:10px 0 10px 0; }
+        %colour-button{ 
+            border-radius:50%;
+            width:25px;
+            height:25px;
+            margin:0 5px 10px 5px;
+        }
+
+        .pearl{
+            @extend %colour-button;
+            background-color:$light;
+        }
+        .wood{
+            @extend %colour-button;
+            background-image:url('../images/wood.jpeg');
+        }
     }
 }
 

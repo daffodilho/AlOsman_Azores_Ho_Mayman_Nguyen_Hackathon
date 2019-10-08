@@ -12,9 +12,13 @@
         width:80%;
 
         img{
-            width:90px;
-            height:90px;
-            padding:60px 0 60px 0;
+            width:60px / 320px * 100%;
+            padding:60px 0 30px 0;
+        }
+
+        p{
+            margin:0 auto;
+            width:270px / 320px * 100%;
         }
     }
 }
@@ -44,20 +48,20 @@
         flex-wrap:nowrap;
         justify-content:center;
 
-        #get-app-google{
-            background-color:$first-color;
-            height:100px;
-            width:100px;
+        %app-imgs{
+            width:75px;
+            opacity:0.3;
+        }
+
+        #get-app-apple img{
+            @extend %app-imgs;
             margin-right:30px;
         }
 
-        #get-app-apple{
-            background-color:$first-color;
-            height:100px;
-            width:100px;
+        #get-app-google img{
+            @extend %app-imgs;
             margin-left:30px;
         }
-
     }
 
 }
@@ -98,7 +102,7 @@
                 width:275px;
             }
             .start-steps img{
-                width:100px / 1024px * 100%;
+                width:300px / 1024px * 100%;
             }
         }
     }
